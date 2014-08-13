@@ -1,0 +1,344 @@
+.fond /* font header */
+{
+	background: none;
+	padding: 30px;
+	margin: auto;
+}
+
+.logo
+{
+	margin-left: 400px;
+	/*border: 1px solid #d35400;
+	border-radius: 8px; */
+
+}
+
+.welcome /* Welcome to my space*/
+{
+	color: #d35400;
+	margin-top: 300px;
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 0px 0px 50px #3333FF;
+}
+
+.welcome:hover /* survol welcome to my space */
+{
+	color: #2ecc71;
+	transition: 2s;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+}
+
+/* photo asu */
+.asu
+{
+	height: 230px;
+	width: 150px;
+}
+
+.about /* about me */
+{
+	/*background-color: #CCCCFF;
+	margin-left: 1200px;
+	padding: 5px;
+	border: 1px solid black;*/
+	border-radius: 15px 0 15px 0;
+	background: black;
+	border:none;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	padding: 10px;
+	margin-left: 350px;
+	color: #FFFFFF;
+	border: 1px solid black;
+}
+
+.skill /* what i do */
+{
+	/*background-color: #CCFFCC;
+	margin-left: 100px;
+	padding: 5px;
+	border: 1px solid black;*/
+	border-radius: 15px 0 15px 0;
+	background: black;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	padding: 10px;
+	margin-left: 100px;
+	border: 1px solid black; 
+}
+
+.skill:hover, .career:hover, .about:hover, .contact:hover /* survol bouton */
+{
+	background-color:#2ecc71;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+}
+
+.career /* skills */
+{
+	/*background-color: #CCE5FF;
+	margin-left: 100px;
+	padding: 5px;
+	border: 1px solid black;*/
+	border-radius: 15px 0 15px 0;
+	background: black;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	padding: 10px;
+	margin-left: 100px;
+	border: 1px solid black;
+}
+
+.contact  /* contact */
+{
+	/*background-color: #00FFFF;
+	margin-left: 100px;
+	padding: 5px;
+	border: 1px solid black;*/
+	border-radius: 15px 0 15px 0;
+	background: black;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	padding: 10px;
+	margin-left: 100px;
+	border: 1px solid black;
+}
+
+.type
+{
+	margin-left: 20px;
+}
+
+.clear
+{
+	display: block;
+	height: 0;
+}
+
+strong
+{
+	font-weight: bold;
+}
+
+.col-lg-offset-6 /* what i do */
+{
+	/*margin-left: 50%;*/
+	background: transparent;
+}
+
+
+.col-xs-2
+{
+	background-color: transparent;
+  	border: 1px solid black;
+  	border-radius: 6px;
+  	line-height: 40px;
+  	text-align: center;
+  	padding: 25px;
+
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.col-xs-4
+{
+	background-color: transparent;
+	border: none;
+	text-align: left;
+	color: white;
+	font-size: large;
+	/*border: 1px solid black;*/
+}
+
+
+.bh
+{
+	background: url('image/home.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bc
+{
+	background: url('image/contact.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.ba
+{
+	background: url('image/me.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.whatido
+{
+	background: url('image/whatido.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+h3 /*say hello */
+{
+	display: block;
+	font-size: large;
+	-webkit-margin-before: 2em;
+	-webkit-margin-after: 2em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+	-webkit-font-family: cursive;
+}
+
+.col-md-6
+{
+	background: #bdc3c7;
+	color: white; 
+	font-style: Arial sans-serif;
+	text-align: left;
+	border-radius: 10px;
+}
+
+p
+{
+	font-size: large;
+}
+
+.envelope, .telephone, .facebook, .skype, .in, .tw /* logo contact */ 
+{
+	background: transparent;
+	height: 50px;
+	width: 50px;
+}
+
+.title, .like, .say, .fb, .twi, .lin, .sky, .mail, .number /* character */
+{
+	color: #8e44ad;
+}
+
+/* ======= footer ======== */
+
+.footer
+{
+	color: white;
+	width: 800px;
+	margin-left: 200px;
+	text-align: center;
+	font-family: cursive;
+	font-size: small;
+	padding-top: 28px;
+}
+
+.fo
+{
+	margin-top: 665px;	
+	background: black;
+	width: 1920px;
+	height: 75px;
+}
+
+/* ====== Skills====*/
+
+#mytabs
+{
+	margin-bottom: 15px;
+}
+
+.col-xs-6
+{
+	color: #d35400;
+	font-size: large;
+	font-style: Arial, Helvetica, sans-serif;
+	background: transparent;
+}
+
+#home
+{
+	background: #bdc3c7;
+	border-radius: 10px;
+	
+}
+
+/*#unix, #profile, #message
+{
+	color: black;
+	text-align: center;
+	padding-top: 150px;
+} */
+
+
+/* ======================== Updating... ===================== */
+
+.section
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	display: center;
+
+	background-color: #bdc3c7; /* #7f8c8d */
+	height: 500px;
+	line-height: 500px;
+}
+
+.loader
+{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+
+/* Loader Quart de cercle */
+.loader-quart
+{
+	border-radius: 50px;
+	border: 6px solid rgba(255,255,255,0.4);
+}
+
+.loader-quart:after
+{
+	content: '';
+	position: absolute;
+	top: -6px;
+	left: -6px;
+	bottom: -6px;
+	right: -6px;
+	border-radius: 50px;
+	border: 6px solid transparent;
+	border-top-color: white;
+	-webkit-animation:spin 1.5s linear infinite;
+	animation:spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes spin{
+	0%{ -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+	100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
